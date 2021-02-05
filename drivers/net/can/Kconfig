@@ -133,6 +133,13 @@ config CAN_KVASER_PCIEFD
 	    Kvaser Mini PCI Express HS v2
 	    Kvaser Mini PCI Express 2xHS v2
 
+config CAN_PHYTIUM
+	tristate "Phytium CAN"
+	depends on ARCH_PHYTIUM
+	---help---
+	  Phytium CAN driver. This driver supports support for the Phytium
+          CAN Controller
+
 config CAN_SUN4I
 	tristate "Allwinner A10 CAN controller"
 	depends on MACH_SUN4I || MACH_SUN7I || COMPILE_TEST

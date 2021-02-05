@@ -54,7 +54,7 @@
 #include "hda_controller.h"
 #include "hda_intel.h"
 
-#define CREATE_TRACE_POINTS
+//#define CREATE_TRACE_POINTS
 #include "hda_intel_trace.h"
 
 /* position fix mode */

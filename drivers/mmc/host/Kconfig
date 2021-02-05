@@ -1019,3 +1019,9 @@ config MMC_SDHCI_AM654
 	  If you have a controller with this interface, say Y or M here.
 
 	  If unsure, say N.
+
+config MMC_PHYTIUM_SDCI
+        tristate "Phytium FT SD Host Controller support"
+        depends on ARM64
+        help
+            This selects support for the Phytium FT4C SD Host Controller
